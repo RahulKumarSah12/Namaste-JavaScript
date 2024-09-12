@@ -1,25 +1,25 @@
-function x() {
-    let name = "Rahul";
-    function y() {
-        console.log(name);
-    }
-    y();
-}
+// function x() {
+//     let name = "Rahul";
+//     function y() {
+//         console.log(name);
+//     }
+//     y();
+// }
 
-x();
+// x();
 
 
 
-function solve() {
-    let num = 20;
-    function z() {
-        console.log(num);
-        console.log(z);
-    }
-    z();
-}
+// function solve() {
+//     let num = 20;
+//     function z() {
+//         console.log(num);
+//         console.log(z);
+//     }
+//     z();
+// }
 
-solve();
+// solve();
 
 
 // function p(){
@@ -38,19 +38,31 @@ solve();
 
 
 
-function a() {
-    let max = 200;
-    function p() {
-        let num = 25;
-        function q() {
-            return {num,max};
-        }
-        num = 100;
-        return q();
+// function a() {
+//     let max = 200;
+//     function p() {
+//         let num = 25;
+//         function q() {
+//             return {num,max};
+//         }
+//         num = 100;
+//         return q();
+//     }
+//     return p();
+// }
+
+// let func = a();
+// console.log(func);
+
+
+
+function a(){
+    const i = 20;
+    function b(){
+        console.log(i)
     }
-    return p();
+    return b;
 }
 
-let func = a();
-console.log(func);
+a()();
 
