@@ -71,3 +71,11 @@
 // }
 
 // printNumber();
+
+
+
+function add(){
+    console.log(5+7);
+}
+
+setTimeout(add(),2000);
