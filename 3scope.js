@@ -44,15 +44,15 @@
 // ------------------------------------------
 
 
-// function a(){
-//     var b = 10;
-//     c();
-//     function c(){
-//     }
-// }
+function a(){
+    var b = 10;
+    c();
+    function c(){
+        console.log(b);          // This will give error as b is not defiend in the global scope
+    }
+}
 
-// console.log(b);          // This will give error as b is not defiend in the global scope
-// a();
+a();
 
 
 // ------------------------------------------

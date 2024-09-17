@@ -115,12 +115,48 @@
 
 
 
-let a = 20;
-{
-    {
-        {
-            console.log(a);
-        }
-        console.log(a);
-    }
-}
+// let a = 20;
+// {
+//     {
+//         {
+//             console.log(a);
+//         }
+//         console.log(a);
+//     }
+// }
+
+
+
+// ------------------------------------
+
+// for(let x = 1; x<=5; x++){     // let will be defined in block scope
+//     console.log(x);
+// }
+
+// for(var a = 1; a<=5; a++){     // var will be defined in global scope
+//     console.log(a);
+// }
+
+
+// ---------------------------------------
+
+// function a(){
+//     {var x = 5;}
+//     {var x = 6;}
+//     let y = 10;
+//     console.log(x);           // no error as x is defined in global scope not in block scope
+//     console.log(y);
+// }
+
+// a();
+
+
+// function a(){
+//     {let x = 5;}
+//     {let x = 6;}
+//     let y = 10;
+//     console.log(x);       // error as x is defined in block scope and we are trying to print in local scope of a()
+//     console.log(y);
+// }
+
+// a();

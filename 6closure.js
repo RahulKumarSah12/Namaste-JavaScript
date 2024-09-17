@@ -1,12 +1,64 @@
 // function x() {
 //     let name = "Rahul";
 //     function y() {
+//         var a = 24;
+//         console.log(a);
 //         console.log(name);
 //     }
 //     y();
 // }
 
 // x();
+
+
+
+// function solve(){
+//     var num = 24;
+//     function func(){
+//         return num;
+//     }
+//     return func;
+// }
+
+// let ans = solve();
+// let x = ans();
+// console.log(x);
+
+
+
+// function x(){
+//     let a = 7;
+//     function y(){
+//         console.log(a);
+//     }
+//     a = 100;
+//     return y;
+// }
+
+// var z = x();
+// z();
+
+
+
+
+// function z() {
+//     let b = 700;
+//     function x() {
+//         let a = 7;
+//         function y() {
+//             console.log(a,b);
+//         }
+//         a = 100;
+//         return y;
+//     }
+//     b = 1000;
+//     return x;
+// }
+
+// let m = z();
+// let n = m();
+// n();
+
 
 
 
@@ -20,6 +72,8 @@
 // }
 
 // solve();
+
+
 
 
 // function p(){
@@ -56,13 +110,23 @@
 
 
 
-function a(){
-    const i = 20;
-    function b(){
-        console.log(i)
-    }
-    return b;
-}
 
-a()();
+// function a(){
+//     const i = 20;
+//     function b(){
+//         console.log(i)
+//     }
+//     return b;
+// }
 
+// a()();
+
+
+
+
+// Uses of Closure
+// 1 - Module Design Pattern
+// 2 - Currying
+// 3 - Function like once
+// 4 - Memoize
+// 5 - setTimeout
