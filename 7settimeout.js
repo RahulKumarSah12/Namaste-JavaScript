@@ -158,7 +158,7 @@
 // ---------------------------------------------------------
 
 // function printNumber(){
-//     for(var i = 1; i<=5; i++){
+//     for(let i = 1; i<=5; i++){
 //         function solve(i){
 //             setTimeout(function(){
 //                 console.log(i);
@@ -171,24 +171,35 @@
 // printNumber();
 
 
-function a(){
-    let x = 24;
-    console.log(2);
-    function b(x){
-        let num = 20;
-        console.log(x);
-        console.log(10);
-        console.log(num);
-    }
-    b(x);
-}
 
-a();
+// -------------------------------------------
 
 
+// function a(){
+//     let x = 24;
+//     function b(a1){
+//         let num = 20;
+//         console.log(a1);
+//         console.log(num);
+//     }
+//     b(18);
+// }
+
+// a();
+
+
+// -------------------------------------------
 
 // function add(){
 //     console.log(5+7);
 // }
 
 // setTimeout(add(),2000);
+
+
+
+
+
+
+// ------------------------setTimeout Trust issue----------------------------
+

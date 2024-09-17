@@ -160,3 +160,38 @@
 // }
 
 // a();
+
+
+// // ---------------------------------------
+
+
+console.log(a);
+{
+    console.log(a);
+    function a(){
+        var b = 2;
+        console.log(b);
+    }
+    a();
+}
+
+console.log(a);
+
+
+// ---------------------------------------
+
+// console.log(b);
+// {
+//     console.log(b);
+//     {
+//         console.log(b);
+//         {
+//             function b(){
+//                 var num = 2;
+//                 console.log(num);
+//             }
+//         }
+//         console.log(b);
+//     }
+//     console.log(b);
+// }

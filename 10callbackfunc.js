@@ -1,6 +1,24 @@
-function add(num1,num2){
-    return num1+num2;
-}
+// Call Stack is called Main thread
+
+// Any operation which block the call stack is called blocking main thread
+
+
+// function func1(func){
+//     console.log("Rahul");
+//     func();
+// }
+
+// func1(function xyz(){
+//     console.log("Rohit");
+// })
+
+
+// ------------------------------------------
+
+
+// function add(num1,num2){
+//     return num1+num2;
+// }
 
 
 // function isEven(func){
@@ -16,19 +34,24 @@ function add(num1,num2){
 // console.log(ans);
 
 
-
-setTimeout(function(){
-    console.log(5+6);
-},2000);
+// -------------------------------------------
 
 
-
-setTimeout((name="Rahul",age=23)=>{
-    console.log(`Hi, my name is ${name} and my age is ${age}`);
-},4000);
+// setTimeout(function(){
+//     console.log(5+6);
+// },2000);
 
 
 
+// setTimeout((name="Rahul",age=23)=>{
+//     console.log(`Hi, my name is ${name} and my age is ${age}`);
+// },4000);
+
+
+
+// ---------------------------------------------
+
+// Event Listner
 
 // let count = 0;
 // document.getElementById("btn").addEventListener("click", function show(){
