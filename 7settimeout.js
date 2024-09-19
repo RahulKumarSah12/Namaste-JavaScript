@@ -203,3 +203,63 @@
 
 // ------------------------setTimeout Trust issue----------------------------
 
+
+// console.log(Date.now());
+// console.log(Date.now()+10000);
+// console.log(Date());
+
+
+// setTimeout(()=>{
+//     console.log("Rahul");
+// },2000);
+
+// let startDate = Date.now();
+// let endDate = Date.now()+10000;
+
+// console.log(`Start Date : ${startDate}`);
+// console.log(`End Date : ${endDate}`);
+
+// for(let i = startDate; i<endDate; i++){          // This is not actually running for 10 sec as writing speed of code is very fast
+   
+// }
+
+// console.log("For loop over");
+
+
+// setTimeout does not actually wait for the time given because sometimes call stack may be busy executing other codes -> It take time equal to or more than given time
+
+
+
+// for(let i=1; i<=10; i++){
+//     setTimeout(()=>{
+//         console.log(i);
+//     }, i*1000);
+// }
+
+
+
+
+// ---------------------------------------------
+
+console.log("Start1");
+
+setTimeout(()=>{
+    console.log("Set Timeout1");
+},0)
+
+console.log("End1");
+
+
+// ---------------------------------------------
+
+
+console.log("Start2");
+
+setTimeout(()=>{
+    console.log("Set Timeout2");
+})
+
+console.log("End2");
+
+
+
