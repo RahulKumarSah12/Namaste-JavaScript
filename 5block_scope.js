@@ -195,3 +195,55 @@ console.log(a);
 //     }
 //     console.log(b);
 // }
+
+
+
+
+
+
+
+
+// {
+//     var a = 11;
+//     function a(){                   // Error as a is defined 2 times
+//         var b = 12;
+
+//         console.log(b);
+//     }
+//     a();
+// }
+
+
+
+// {
+//     var a = 11;
+//     var a = function(){                   // Error as a is defined 2 times
+//         var b = 12;
+
+//         console.log(b);
+//     }
+//     a();
+// }
+
+
+
+// {
+//     var a = 11;
+//     function b(){                   // Error as a is defined 2 times
+//         var b = 12;
+//         console.log(b);
+//     }
+//     b();
+// }
+
+
+
+let x = 10;
+console.log(x);
+{
+    let a = function(){
+        let b = 10;
+        console.log(b);
+    }
+    a();
+}
